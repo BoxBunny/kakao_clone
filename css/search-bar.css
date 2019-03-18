@@ -2,12 +2,19 @@
   padding: 10px 15px;
 }
 
+.search-bar i {
+  position: absolute;
+  left: 20px;
+  top: 75px;
+  color: #1a3e4c;
+}
+
 .search-bar input {
   padding: 5px 7px;
   width: 100%;
   box-sizing: border-box;
-  border-radius: 5px;
-  border: 0;
+  border-radius: 50px;
+  border: 1px;
   background: #e4f1f6;
   font-size: 13px;
   text-align: center;
@@ -20,11 +27,4 @@
 .search-bar input:placeholder {
   position: absolute;
   color: #1a3e4c;
-}
-
-.search-bar i {
-  position: absolute;
-  left: 20px;
-  top: 75px;
-  color: #bbbbbb;
 }
