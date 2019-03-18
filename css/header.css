@@ -1,7 +1,7 @@
 .top-header {
-  background-color: #67AFCB;
+  background-color: #67afcb;
   color: #092834;
-  padding:5px 10px 15px 10px;
+  padding: 5px 10px 15px 10px;
 }
 
 .top-header .header__top,
@@ -12,10 +12,11 @@
 
 .top-header .header__top {
   margin-bottom: 15px;
+  font-size: 12px;
 }
 
 .top-header .header__bottom {
-  margin:0 10px;
+  margin: 0 10px;
 }
 
 .top-header .header__column {
@@ -23,5 +24,13 @@
 }
 
 .top-header .header__column:last-child {
-  text_align: right;
+  text-align: right;
+}
+
+.top-header .header__column:nth-child(2) {
+  text-align: center;
+}
+
+.top-header .header__number {
+  color: #e4f1f6;
 }
