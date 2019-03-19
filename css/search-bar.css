@@ -14,14 +14,16 @@
   width: 100%;
   box-sizing: border-box;
   border-radius: 50px;
-  border: 1px;
+  border: 1px solid transparent;
   background: #e4f1f6;
   font-size: 13px;
   text-align: center;
+  transition: border 0.5s linear;
 }
 
 .search-bar input:focus {
   outline: none;
+  border: 1px solid #ffe94a;
 }
 
 .search-bar input:placeholder {
