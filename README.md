@@ -1,4 +1,4 @@
-# https://boxbunny.github.io/kakao_clone/
+# https://boxbunny.github.io/Kokoa-Talk-Design
 
 # kakao_clone
 
